@@ -1,0 +1,34 @@
+* {
+    color: white
+}
+
+body {
+    background-image: url('./assets/images/error-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+span {
+    font-size: 25px;
+}

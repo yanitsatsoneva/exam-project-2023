@@ -1,0 +1,166 @@
+nav {
+    background-color: var(--concrete-grey);
+}
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.breadcrumbs > span {
+    font-size: 15px;
+    color: var(--concrete-grey);
+}
+
+.breadcrumbs > span.active {
+    color: var(--dark-grey);
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    gap: 50px;
+}
+
+.images {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.small-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-image > img {
+    width: 100%;
+}
+
+.small-image {
+    position: relative;
+    cursor: pointer;
+}
+
+.small-image > img {
+    height: 100px;
+    width: 100px;
+}
+
+.video-icon {
+    position: absolute !important;
+    left: 25px;
+    top: 25px;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.product-info-text {
+    width: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.arrow-in-button {
+    rotate: 180deg;
+}
+
+
+.button {
+    padding: 20px !important;
+    height: fit-content;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-banner {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.line-types {
+    margin-top: 30px;
+}
+
+.info-banner-filers {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.info-banner-filer {
+    background-color: var(--concrete-grey);
+    font-size: 20px;
+    padding: 15px 30px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.info-banner-filer.active {
+    background-color: var(--dark-grey);
+
+}
+
+.info-from-filters {
+    display: flex;
+    gap: 20px;
+    background-color: var(--concrete-grey);
+    padding: 30px;
+}
+
+.additional-filters {
+    width: 30%;
+}
+
+.text-info {
+    width: 65%;
+}
+
+.active-side-filter {
+    background-color: var(--machine-yellow);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.text-info > h5 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 18px;
+}
+
+.filtered {
+    display: none;
+}
