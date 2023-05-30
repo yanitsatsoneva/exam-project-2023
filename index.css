@@ -1,0 +1,274 @@
+header {
+    background-image: url('./assets/images/hero-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    margin: auto;
+}
+
+.banner-info {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.hero-buttons {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-section > div {
+    width: 50%;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 28px;
+    line-height: 1.4;
+}
+
+.arrow-down {
+    rotate: 180deg;
+    position: absolute;
+    bottom: 40px;
+    height: 20px;
+    left: 50%;
+}
+
+.subscribe-banner {
+    background-image: url('./assets//images/subscribe-banner-bg.png');
+    background-position: 300%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 100px 0px;
+    padding: 0px 150px;
+}
+
+.blog-section { 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header-blogs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 40px;
+}   
+
+.header-blogs > a {
+    color: var(--dark-grey);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header-blogs > a:hover {
+    opacity: .7;
+}
+
+.blog-article {
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+    height: 150px;
+}
+
+.blog-articles {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.blog-article > .date {
+    font-size: 22px;
+    font-weight: light;
+}
+
+.blog-article > .title {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.updates {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-section > div > input {
+    border: none;
+    border-radius: 20px;
+    padding: 14px 20px;
+    width: 300px;
+}
+
+.input-section > p {
+    font-size: 13px;
+}
+
+.input-section > div {
+    position: relative;;
+}
+
+.subscribe-button {
+    width: 70px;
+    padding: 0px;
+    font-size: 15px;
+    padding: 8px;
+    position: absolute;
+    left: 250px;
+    top: 6px;
+}
+
+.items {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+
+.most-popular {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.most-popular > h2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.item-card > .item-image {
+    height: 312px;
+}
+
+.item-card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 3px 1px #888888;
+    position: relative;
+    transition: transform .1s; /* Animation */  
+    cursor: pointer;
+}
+
+.item-card:hover {
+    transform: scale(1.02);
+}
+
+.item-card > .recycle-icon {
+    height: 50px;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+}
+
+.item-card > .best-seller {
+    background-color: #F2E2D5;
+    position: absolute;
+    color: var(--white);
+    top: 30px;
+    left: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.name-section {
+    background-color: var(--machine-yellow);
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.arrow {
+    position: absolute;
+    background-color: grey;
+    z-index: 10;
+    height: 20px;
+    top: calc(50% - 10px);
+    transition: transform .2s; /* Animation */  
+    cursor: pointer;
+}
+
+.arrow:hover {
+    transform: scale(1.5);
+}
+
+.arrow-right {
+    right: 10px;
+    rotate: 90deg;
+}
+
+.arrow-left {
+    left: 10px;
+    rotate: -90deg;
+}
+
+.items-types {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 100px 0px;
+    position: relative;
+}
+
+.items-background {
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    background-color: var(--concrete-grey);
+    left: 0px;
+    z-index: -1;
+}
+
+.type-card {
+    width: 20%;
+    background-color: var(--machine-yellow);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.type-card > img {
+    height: 50px;
+    background-color: var(--white);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.type-card:hover {
+    box-shadow: 5px 5px 3px 1px #888888;
+}
